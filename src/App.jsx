@@ -55,7 +55,7 @@ export const App = () => {
       <div className="incomplete-area">
         <p className="title">未完了のTODO</p>
         <div>
-          <ui>
+          <ul>
             {incompleteTodos.map((todo, index) => {
               return (
                 <li key="index" className="incomplete-item">
@@ -65,13 +65,13 @@ export const App = () => {
                 </li>
               );
             })}
-          </ui>
+          </ul>
         </div>
       </div>
       <div className="complete-area">
         <p className="title">完了のTODO</p>
         <div>
-          <ui>
+          <ul>
             {completeTodos.map((todo, index) => {
               return (
                 <li key="index" className="complete-item">
@@ -80,7 +80,7 @@ export const App = () => {
                 </li>
               );
             })}
-          </ui>
+          </ul>
         </div>
       </div>
     </>
