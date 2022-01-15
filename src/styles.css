@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border: none;
+  border-radius: 16px;
+  outline: none;
+  padding: 6px 16px;
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  margin-left: 8px;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: #ff7fff;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.input-area {
+  background-color: #c1ffff;
+  border-radius: 8px;
+  height: 30px;
+  margin: 8px;
+  padding: 8px;
+  width: 400px;
+}
+
+.incomplete-area {
+  background-color: #c6ffe2;
+  border-radius: 8px;
+  margin: 8px;
+  min-height: 200px;
+  padding: 8px;
+  width: 400px;
+}
+
+.complete-area {
+  background-color: #ffffe0;
+  border-radius: 8px;
+  margin: 8px;
+  min-height: 200px;
+  padding: 8px;
+  width: 400px;
+}
+
+.title {
+  color: #666666;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+}
+
+.todo {
+  margin-right: 8px;
+}
+
+.incomplete-item,
+.complete-item {
+  padding: 16px;
+}
